@@ -1,19 +1,11 @@
-{
+[
     {
-        "name": "server-1",
-
-        "ip": "",
-
-        "username": "root",
-
-        "password": "githubactions",
-
-        "port": "22",
-
-        "beforeHooks": "",
-
-        "afterHooks": "",
-
-        "path": "var/www/html"
+      "name": "server-1",
+      "ip": "123.456.78.90",
+      "username": "web",
+      "port": "22",
+      "beforeHooks": "",
+      "afterHooks": "",
+      "path": ""
     }
-}
+  ]
