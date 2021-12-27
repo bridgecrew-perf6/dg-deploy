@@ -1,14 +1,22 @@
 name: Deploy Application
+
 on:
+
   push:
+
     branches:
+
       -master
 
 
 jobs:
+
   create-deployment-artifacts:
+
     name: Create Deployment Artifacts
+
     runs-on: ubuntu-latest
+
     stesps:
       - uses: actions/checkout@v2
 
